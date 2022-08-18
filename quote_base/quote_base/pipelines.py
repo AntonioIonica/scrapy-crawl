@@ -8,6 +8,9 @@
 from itemadapter import ItemAdapter
 
 
-class QuoteBasePipeline:
+
+
+class QuoteBasePipeline(object):
     def process_item(self, item, spider):
         return item
+
